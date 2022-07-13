@@ -1,0 +1,118 @@
+.user-image {
+	margin: auto;
+}
+
+.header-user {
+	padding: inherit;
+}
+
+.mb-1 {
+	margin-bottom: .25rem!important;
+}
+.mb-2
+{
+    margin-bottom: .5rem!important;
+}
+.mt-1 {
+	margin-top: .25rem!important;
+}
+.mt-2
+{
+    margin-top: .5rem!important;
+}
+
+.ml-2 {
+	margin-left: .5rem!important;
+}
+.btn-round {
+	border-radius: 50%;
+	font-size: 2em;
+	padding: inherit;
+}
+td {
+	vertical-align: middle!important;
+}
+
+.d-inline {
+	display: inline-block;
+}
+
+.alert {
+	margin: 15px;
+}
+
+.profile-img {
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.no-margin {
+	margin: none;
+}
+
+.panel-custom {
+    border-color: #ca457f;
+}
+.panel-custom>.panel-heading
+{
+	color: #ffffff;
+    background-color: #f14e95;
+    border-color: #ca457f;
+}
+
+.pagination>.active>a, 
+.pagination>.active>a:focus, 
+.pagination>.active>a:hover, 
+.pagination>.active>span, 
+.pagination>.active>span:focus, 
+.pagination>.active>span:hover {
+	background-color: #f14e95!important;
+	border-color: #f14e95!important;
+}
+
+.gateway-card {
+	padding: 15px 25px;
+	width: 100%;
+	text-align: center;
+	transition: all .2s ease-in;
+}
+
+.gateway-card:hover,
+.gateway-card:focus,
+.gateway-card.selected {
+	border: 2px solid #f14e95;
+	box-shadow: 5px 5px 10px rgb(0,0,0,.5);
+	transform: scale(1.2s);
+}
+
+.gateway-checkbox { display: none!important; }
+
+.razorpay-payment-button
+{
+	border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid transparent;
+	background-color: #F14E95;
+    border-color: #ca457f;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}

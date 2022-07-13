@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous Pro');
+
+.er-loader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 5000;
+	height: 100vh;
+	width: 100vw;
+	background-color: white;
+}
+.er-loader:before {
+	content: '';
+	display:  block;
+	background-image: url('/assets/img/er-logo.gif');
+	background-size: cover;               
+    background-repeat: no-repeat;
+    background-position: center center;  
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	height: 200px;
+	width: 200px;
+	transform: translate(-50%,-50%);
+}
+.er-loader-text {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translateY(75px) translateX(-40%);
+	font-size: 24px;
+	color: black!important;
+}
+.er-loader-text {
+	font-family: 'Anonymous Pro';
+  width: 10ch;
+  animation: typing 1.4s steps(10) infinite, blink .2s infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-weight: bolder;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+  	width: 10ch;
+  }
+  100% {
+  	width: 0;
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
